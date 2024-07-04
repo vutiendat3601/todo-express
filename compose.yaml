@@ -1,0 +1,11 @@
+services:
+  todo-be:
+    # image: vutiendat3601/tode-express:dev
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    ports:
+      - 3000:3000
+networks:
+  default:
+    name: todo-express
