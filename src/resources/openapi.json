@@ -124,7 +124,7 @@
     "/v1/tasks": {
       "post": {
         "tags": ["Task"],
-        "summary": "Create or Udate an existing Task",
+        "summary": "Create or Update an existing Task",
         "operationId": "createOrUpdateTask",
         "requestBody": {
           "content": {
