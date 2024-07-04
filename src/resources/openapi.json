@@ -18,6 +18,9 @@
   "servers": [
     {
       "url": "http://localhost:3000"
+    },
+    {
+      "url": "http://todo.vutiendat3601.io.vn"
     }
   ],
   "tags": [
