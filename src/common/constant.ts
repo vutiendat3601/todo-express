@@ -1,0 +1,2 @@
+export const BAD_REQUEST_STATUS = 400;
+export const INTERNAL_SERVER_ERROR = 500;
