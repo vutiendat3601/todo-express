@@ -1,8 +1,7 @@
 FROM node:20-bookworm AS build
 WORKDIR /app
 
-COPY ./src ./
-COPY package.json ./
+COPY ./ ./
 RUN npm install
 RUN npm run build
 
